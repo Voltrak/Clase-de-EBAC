@@ -2,22 +2,19 @@ using UnityEngine;
 
 public class CrearCuboEnableDisable : MonoBehaviour
 {
+    public GameObject objetoParaClonar; // Tu Prefab va aquí
+
     void OnEnable()
     {
-       GameObject.CreatePrimitive(PrimitiveType.Cube);
-       GameObject cubo = GameObject.CreatePrimitive(PrimitiveType.Cube);
-       cubo.name = "Cubo_Encendido";
-       cubo.transform.position = new Vector3(0, 2, 0); // Arriba
-       cubo.GetComponent<MeshRenderer>().material.color = Color.green;
+        // Se crea al activar el objeto
+        GameObject nuevoObjeto = Instantiate(objetoParaClonar, new Vector3(2, 1, 0), Quaternion.identity);
+        nuevoObjeto.name = "Objeto_OnEnable"; // Le ponemos nombre para distinguirlo
     }
 
     void OnDisable()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cube);
-        GameObject cubo = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cubo.name = "Cubo_Apagado";
-        cubo.transform.position = new Vector3(0, -1, 0); // Abajo
-        cubo.GetComponent<MeshRenderer>().material.color = Color.red;
+        // Se crea al desactivar el objeto
+        GameObject nuevoObjeto = Instantiate(objetoParaClonar, new Vector3(-2, 1, 0), Quaternion.identity);
+        nuevoObjeto.name = "Objeto_OnDisable";
     }
-    
 }
