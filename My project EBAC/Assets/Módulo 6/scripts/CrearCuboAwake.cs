@@ -2,14 +2,13 @@ using UnityEngine;
 
 public class CrearCuboAwake : MonoBehaviour
 {
+    // 1. Variable para meter tu Prefab (el cubo o esfera que ya tienes)
+    public GameObject objetoParaClonar;
+
     void Awake()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cube);
-        
-        GameObject cubo = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cubo.name = "Cubo_Awake";
-        cubo.transform.position = new Vector3(-2, 1, 0); 
-        
-        cubo.GetComponent<MeshRenderer>().material.color = Color.yellow;
+        // 2. Usamos Instantiate en lugar de CreatePrimitive
+        // Esto crea una copia exacta de tu Prefab en la posición (0, 2, 0)
+        Instantiate(objetoParaClonar, new Vector3(0, 2, 0), Quaternion.identity);
     }
 }
