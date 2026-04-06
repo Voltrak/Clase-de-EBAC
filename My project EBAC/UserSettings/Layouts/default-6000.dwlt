@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4245
+  controlID: 37
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 4246
+  controlID: 38
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 4247
+  controlID: 39
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -348,7 +348,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -418,7 +418,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 17.399994}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 14fbffff
@@ -955,9 +955,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 4.7885237, y: 8.486191, z: -24.46584}
+    m_Target: {x: -2.6477408, y: 6.0623803, z: 143.92561}
     speed: 2
-    m_Value: {x: 4.7885237, y: 8.486191, z: -24.46584}
+    m_Value: {x: -2.6477408, y: 6.0623803, z: 143.92561}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1003,13 +1003,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09379452, y: -0.087395206, z: 0.007489335, w: 0.9920653}
+    m_Target: {x: -0.019959196, y: -0.7140932, z: 0.02161138, w: -0.7000201}
     speed: 2
-    m_Value: {x: -0.09379451, y: 0.0873952, z: -0.0074893343, w: -0.9920653}
+    m_Value: {x: 0.019959195, y: 0.71409315, z: -0.021611378, w: 0.7000201}
   m_Size:
-    m_Target: 4.1728272
+    m_Target: 3.0477548
     speed: 2
-    m_Value: 4.1728272
+    m_Value: 3.0477548
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/M\xF3dulo 6/scripts/Modulo7"
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1136,17 +1136,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - "Assets/M\xF3dulo 6/scripts/Modulo7"
+  - Assets
   m_LastFoldersGridSize: 54
   m_LastProjectPath: C:\Users\yamir\Desktop\cosas\unity\gitkraken\Repocitorios\Clase
     de EBAC\My project EBAC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 30.800018}
-    m_SelectedIDs: d2ad0000
-    m_LastClickedID: 44498
-    m_ExpandedIDs: 0000000062ac000064ac000066ac0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0aad0000
+    m_LastClickedID: 44298
+    m_ExpandedIDs: 00000000ceab0000d0ab0000d2ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1175,7 +1175,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000062ac000064ac000066ac0000
+    m_ExpandedIDs: 00000000ceab0000d0ab0000d2ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1221,7 +1221,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
