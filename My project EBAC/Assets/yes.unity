@@ -1312,6 +1312,7 @@ GameObject:
   - component: {fileID: 1183903493}
   - component: {fileID: 1183903498}
   - component: {fileID: 1183903497}
+  - component: {fileID: 1183903499}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1438,6 +1439,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrearCuboAwake
   objetoParaClonar: {fileID: 0}
+--- !u!114 &1183903499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183903492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd432e4449edccf479e16f3b50e66a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  colr: rojo
 --- !u!1001 &1203584346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1620,7 +1634,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4908145731441335218, guid: f3614b614348d5c40816705a1a683e7f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8218593025120447531, guid: f3614b614348d5c40816705a1a683e7f, type: 3}
       propertyPath: m_Name
@@ -1904,7 +1918,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4908145731441335218, guid: f3614b614348d5c40816705a1a683e7f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8218593025120447531, guid: f3614b614348d5c40816705a1a683e7f, type: 3}
       propertyPath: m_Name
@@ -2587,7 +2601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8607625289823258590, guid: 40698359ebfbe2f4cad5d29f269e5855, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2654,7 +2668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3510114556026009003, guid: 812d41424ecc8f24480ab104e37eb7d3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2677,7 +2691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4908145731441335218, guid: f3614b614348d5c40816705a1a683e7f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8218593025120447531, guid: f3614b614348d5c40816705a1a683e7f, type: 3}
       propertyPath: m_Name
