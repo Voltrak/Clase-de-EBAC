@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -245,14 +245,14 @@ MonoBehaviour:
     y: 509.6
     width: 1199.2
     height: 207.19998
-  m_MinSize: {x: 231, y: 276}
-  m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -955,9 +955,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.6477408, y: 6.0623803, z: 143.92561}
+    m_Target: {x: -2.902276, y: 4.6390476, z: 143.98953}
     speed: 2
-    m_Value: {x: -2.6477408, y: 6.0623803, z: 143.92561}
+    m_Value: {x: -2.902276, y: 4.6390476, z: 143.98953}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1003,13 +1003,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.019959196, y: -0.7140932, z: 0.02161138, w: -0.7000201}
+    m_Target: {x: -0.103226, y: -0.7031565, z: 0.10566625, w: -0.69611365}
     speed: 2
-    m_Value: {x: 0.019959195, y: 0.71409315, z: -0.021611378, w: 0.7000201}
+    m_Value: {x: 0.103226006, y: 0.70315653, z: -0.10566626, w: 0.69611365}
   m_Size:
-    m_Target: 3.0477548
+    m_Target: 1.8366108
     speed: 2
-    m_Value: 3.0477548
+    m_Value: 1.8366108
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1065,9 +1065,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 588.8
+    y: 533.6
     width: 1198.2
-    height: 181.19998
+    height: 181.20001
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1101,9 +1101,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 533.6
+    y: 588.8
     width: 1198.2
-    height: 181.20001
+    height: 181.19998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - "Assets/M\xF3dulo 6/scripts/Modulo 8"
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1136,17 +1136,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets
+  - "Assets/M\xF3dulo 6/scripts/Modulo 8"
   m_LastFoldersGridSize: 54
   m_LastProjectPath: C:\Users\yamir\Desktop\cosas\unity\gitkraken\Repocitorios\Clase
     de EBAC\My project EBAC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0aad0000
-    m_LastClickedID: 44298
-    m_ExpandedIDs: 00000000ceab0000d0ab0000d2ab0000
+    scrollPos: {x: 0, y: 30.800018}
+    m_SelectedIDs: 24ad0000
+    m_LastClickedID: 44324
+    m_ExpandedIDs: 00000000d4ab0000d6ab0000d8ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1175,7 +1175,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ceab0000d0ab0000d2ab0000
+    m_ExpandedIDs: 00000000d4ab0000d6ab0000d8ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1201,9 +1201,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 94ab0000
+    m_LastClickedInstanceID: 43924
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003a020000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1221,7 +1221,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
